@@ -1,0 +1,83 @@
+body {
+  background-color: hsl(0, 0%, 95%);
+  color: hsla(0, 0%, 100%, 0.75);
+  font-size: 15px;
+  text-align: justify;
+}
+
+:root {
+  --orange: hsl(31, 77%, 52%);
+  --lightblue: hsl(184, 100%, 22%);
+  --darkblue: hsl(179, 100%, 13%);
+}
+
+#maindiv div {
+  width: 6cm;
+  height: 9cm;
+  display: inline-block;
+  padding: 40px;
+  margin: -2px;
+  text-align: left;
+  border: 0px solid;
+}
+
+h1 {
+  font-family: "Big Shoulders Text", cursive !important;
+  font-weight: 700;
+  font-size: 40px;
+  color: hsl(0, 0%, 95%);
+}
+
+p {
+  font-family: "Lexend Deca", sans-serif;
+  margin-bottom: 100px;
+}
+
+#div1 {
+  background-color: var(--orange);
+}
+
+#div1 span {
+  color: var(--orange);
+}
+
+#div2 {
+  background-color: var(--lightblue);
+}
+
+#div2 span {
+  color: var(--lightblue);
+}
+
+#div3 {
+  background-color: var(--darkblue);
+}
+
+#div3 span {
+  color: var(--darkblue);
+}
+
+span {
+  background-color: white;
+  border-radius: 20px;
+  padding: 10px 30px;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+span:hover {
+  background-color: transparent;
+  border: 2px solid white;
+  color: white !important;
+  cursor: pointer;
+}
+
+#maindiv {
+  text-align: center;
+  margin-top: 3cm;
+  border-radius: 30px;
+}
+
+@viewport {
+  width: 375px;
+  zoom: 1;
+}
